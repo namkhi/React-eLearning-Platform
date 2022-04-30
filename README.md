@@ -1,7 +1,8 @@
 # CPS 731 Project
 
-Scholar Village
+This is an interactive eLearning Platform to host course content inside a game built with Unity, ReactJS, HTML/CSS/JS, ExpressJS, NodeJS and MongoDB. It is the final project for the Software Engineering 2 course CPS731.
 
+In order to run the project:
 under react-ui folder run command "npm install"
 under react-ui folder run command "npm i bootstrap"
 
