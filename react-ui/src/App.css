@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.row {
+  background-color:lightgrey;
+}
+
+.LoginPanel{
+  background-color: #B2EBF2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2vmin);
+}
+.TitlePanel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.FormPanel{
+  width: 100%;
+}
+.App-link {
+  color: #61dafb;
+}

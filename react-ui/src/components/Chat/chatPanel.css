@@ -1,0 +1,17 @@
+.Panel{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+.topNav{
+    
+    display:inline-flex;
+    justify-content: space-evenly;
+    
+    
+}
+.panel.btn{
+align-self: stretch;
+width: 100%;
+}
