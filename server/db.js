@@ -1,8 +1,8 @@
 var { MongoClient} = require('mongodb');
 var bcrypt = require('bcrypt');
+require("dotenv").config();
 
-var url = 'mongodb+srv://dbUser:tapAjOMxZ83NdOkA@cluster0.ie7my.mongodb.net/cps731?retryWrites=true&w=majority';
-
+var url = process.env.URL;
 const nodemailer = require("nodemailer");
 var handlebars = require('handlebars');
 var fs = require('fs');
